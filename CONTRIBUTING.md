@@ -1,30 +1,30 @@
-## Contributing
+## Contribuindo
 
-We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
+Estamos entusiasmados que você gostaria de contribuir para este projeto. Sua ajuda é essencial para mantê-lo excelente.
 
-Contributions to this project are [released](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license) to the public under the [project's open source license](LICENSE).
+As contribuições para este projeto são [liberadas](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license) ao público sob a [licença de código aberto do projeto](LICENSE).
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Por favor, note que este projeto é lançado com um [Código de Conduta do Contribuinte](CODE_OF_CONDUCT.md). Ao participar deste projeto, você concorda em cumprir seus termos.
 
-Here's some helpful notes on how to contribute to this project, including details on how to get started working the codebase.
+Aqui estão algumas notas úteis sobre como contribuir para este projeto, incluindo detalhes sobre como começar a trabalhar no código.
 
-## Configure your development environment
+## Configure seu ambiente de desenvolvimento
 
-To get started, you'll need [.NET Core 6.0](https://dotnet.microsoft.com/en-us/download) installed on your local machine.
+Para começar, você precisará ter o [.NET Core 6.0](https://dotnet.microsoft.com/en-us/download) instalado em sua máquina local.
 
-The solution can be built using the following command:
+A solução pode ser construída usando o seguinte comando:
 
 ```bash
 $ dotnet build src/ActionsImporter.sln
 ```
 
-Unit tests can be run using the following command:
+Os testes unitários podem ser executados usando o seguinte comando:
 
 ```bash
 $ dotnet test src/ActionsImporter.sln
 ```
 
-Code linting can be run using the following command:
+A formatação do código pode ser executada usando o seguinte comando:
 
 ```bash
 $ dotnet format src/ActionsImporter.sln

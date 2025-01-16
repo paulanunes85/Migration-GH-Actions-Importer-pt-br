@@ -1,8 +1,8 @@
-# GitHub Actions Importer
+# Importador do GitHub Actions
 
 [![.github/workflows/ci.yml](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml/badge.svg)](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml)
 
-[GitHub Actions Importer](https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer) helps plan, test, and automate your migration to GitHub Actions from the following platforms:
+[Importador do GitHub Actions](https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer) ajuda a planejar, testar e automatizar sua migração para o GitHub Actions a partir das seguintes plataformas:
 
 - Azure DevOps
 - Bamboo
@@ -12,39 +12,39 @@
 - Jenkins
 - Travis CI
 
-## How to request support
+## Como solicitar suporte
 
-If you need assistance, you can file a support ticket [here](https://support.github.com).
+Se precisar de assistência, você pode abrir um ticket de suporte [aqui](https://support.github.com).
 
-## Getting started
+## Começando
 
-GitHub Actions Importer is distributed as a Docker container and this extension to the official [GitHub CLI](https://cli.github.com) to interact with the Docker container.
+O Importador do GitHub Actions é distribuído como um contêiner Docker e esta extensão para o [GitHub CLI](https://cli.github.com) oficial para interagir com o contêiner Docker.
 
-### Prerequisites
+### Pré-requisitos
 
-The following requirements must be met to be able to use the GitHub Actions Importer:
+Os seguintes requisitos devem ser atendidos para poder usar o Importador do GitHub Actions:
 
-- The Docker CLI must be [installed](https://docs.docker.com/get-docker/) and running.
-- The official [GitHub CLI](https://cli.github.com) must be installed.
-- You must have credentials to [authenticate](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry) with the GitHub Container Registry.
+- O CLI do Docker deve estar [instalado](https://docs.docker.com/get-docker/) e em execução.
+- O [GitHub CLI](https://cli.github.com) oficial deve estar instalado.
+- Você deve ter credenciais para [autenticar](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#authenticating-to-the-container-registry) com o GitHub Container Registry.
 
-### Installation
+### Instalação
 
-Next, the GitHub Actions Importer CLI extension can be installed via this command:
+Em seguida, a extensão CLI do Importador do GitHub Actions pode ser instalada via este comando:
 
 ```bash
 gh extension install github/gh-actions-importer
 ```
 
-### Configuration
+### Configuração
 
-New versions of the GitHub Actions Importer are released on a regular basis. To ensure you're up to date, run the following command:
+Novas versões do Importador do GitHub Actions são lançadas regularmente. Para garantir que você esteja atualizado, execute o seguinte comando:
 
 ```bash
 gh actions-importer update
 ```
 
-In order for GitHub Actions Importer to communicate with your current CI/CD server and GitHub, various credentials must be available for the command. These can be configured using environment variables or a `.env.local` file. These environment variables can be configured in an interactive prompt by running the following command:
+Para que o Importador do GitHub Actions se comunique com seu servidor CI/CD atual e com o GitHub, várias credenciais devem estar disponíveis para o comando. Estas podem ser configuradas usando variáveis de ambiente ou um arquivo `.env.local`. Essas variáveis de ambiente podem ser configuradas em um prompt interativo executando o seguinte comando:
 
 ```bash
 $ gh actions-importer configure
@@ -52,24 +52,24 @@ $ gh actions-importer configure
 ...
 ```
 
-You can find detailed information about using environment variables in the platform-specific documentation.
+Você pode encontrar informações detalhadas sobre o uso de variáveis de ambiente na documentação específica da plataforma.
 
-#### Using a custom Docker registry
+#### Usando um registro Docker personalizado
 
-We highly recommend using the [official GitHub Container Registry to pull the GitHub Actions Importer Docker image](https://github.com/actions-importer/preview/pkgs/container/cli/). However, if you need to use a custom Docker registry, you can configure GitHub Actions Importer to use a custom Docker registry by setting the `CONTAINER_REGISTRY` environment variable in your `.env.local` file.
+Recomendamos fortemente o uso do [GitHub Container Registry oficial para puxar a imagem Docker do Importador do GitHub Actions](https://github.com/actions-importer/preview/pkgs/container/cli/). No entanto, se você precisar usar um registro Docker personalizado, poderá configurar o Importador do GitHub Actions para usar um registro Docker personalizado definindo a variável de ambiente `CONTAINER_REGISTRY` no seu arquivo `.env.local`.
 
 ```bash
 # .env.local
-CONTAINER_REGISTRY=my-custom-registry.com
+CONTAINER_REGISTRY=meu-registro-personalizado.com
 ```
 
-### Documentation
+### Documentação
 
-Detailed information about how to use GitHub Actions Importer can be found in the [documentation](https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer).
+Informações detalhadas sobre como usar o Importador do GitHub Actions podem ser encontradas na [documentação](https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer).
 
-### Recordings
+### Gravações
 
-You can access recorded demos of GitHub Actions Importer performing migrations to Actions from the following CI/CD platforms:
+Você pode acessar demos gravadas do Importador do GitHub Actions realizando migrações para Actions a partir das seguintes plataformas CI/CD:
 
 - [Azure DevOps](https://youtu.be/gG-2bkmBRlI)
 - [CircleCI](https://youtu.be/YkFnNEyM9Hg)
@@ -77,14 +77,14 @@ You can access recorded demos of GitHub Actions Importer performing migrations t
 - [Jenkins](https://youtu.be/WqiGP6h4fa0)
 - [Travis CI](https://youtu.be/ndc-FNa_X3c)
 
-### Self-guided learning
+### Aprendizado autodidata
 
-The GitHub Actions Importer labs repository contains platform-specific learning paths that teach you how to use GitHub Actions Importer and how to approach migrations to GitHub Actions. To learn more, see the [GitHub Actions Importer labs repository](https://github.com/actions/importer-labs/tree/main#readme).
+O repositório de laboratórios do Importador do GitHub Actions contém caminhos de aprendizado específicos da plataforma que ensinam como usar o Importador do GitHub Actions e como abordar migrações para o GitHub Actions. Para saber mais, veja o [repositório de laboratórios do Importador do GitHub Actions](https://github.com/actions/importer-labs/tree/main#readme).
 
-## Product roadmap
+## Roteiro do produto
 
-To learn about new features coming to GitHub Actions Importer, see the [GitHub Public Roadmap](https://github.com/orgs/github/projects/4247).
+Para saber sobre novos recursos que estão chegando ao Importador do GitHub Actions, veja o [Roteiro Público do GitHub](https://github.com/orgs/github/projects/4247).
 
-## How to offer feedback or make a feature request
+## Como oferecer feedback ou fazer uma solicitação de recurso
 
-If you would like to offer feedback or make a feature request, please create a new discussion [here](https://github.com/github/gh-actions-importer/discussions/new/choose).
+Se você gostaria de oferecer feedback ou fazer uma solicitação de recurso, por favor crie uma nova discussão [aqui](https://github.com/github/gh-actions-importer/discussions/new/choose).
