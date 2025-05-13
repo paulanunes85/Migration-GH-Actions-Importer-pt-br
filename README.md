@@ -2,6 +2,8 @@
 
 [![.github/workflows/ci.yml](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml/badge.svg)](https://github.com/github/gh-actions-importer/actions/workflows/ci.yml)
 
+*Leia este documento em outros idiomas: [Español](README.es.md)*
+
 [Importador do GitHub Actions](https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer) ajuda a planejar, testar e automatizar sua migração para o GitHub Actions a partir das seguintes plataformas:
 
 - Azure DevOps

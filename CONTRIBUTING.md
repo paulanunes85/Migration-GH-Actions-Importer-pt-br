@@ -1,5 +1,7 @@
 ## Contribuindo
 
+*Leia este documento em outros idiomas: [Español](CONTRIBUTING.es.md)*
+
 Estamos entusiasmados que você gostaria de contribuir para este projeto. Sua ajuda é essencial para mantê-lo excelente.
 
 As contribuições para este projeto são [liberadas](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license) ao público sob a [licença de código aberto do projeto](LICENSE).

@@ -1,5 +1,7 @@
 # Código de Conduta do Pacto do Contribuinte
 
+*Leia este documento em outros idiomas: [Español](CODE_OF_CONDUCT.es.md)*
+
 ## Nosso Compromisso
 
 No interesse de fomentar um ambiente aberto e acolhedor, nós, como

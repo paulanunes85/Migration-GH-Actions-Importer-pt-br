@@ -1,8 +1,6 @@
-# Plugin Mappings
+# Mapeo de Plugins
 
-*Read this document in other languages: [Español](index.es.md)*
-
-Click [here](https://plugins.jenkins.io/) to view the full listing of Jenkins Plugins.
+Haga clic [aquí](https://plugins.jenkins.io/) para ver el listado completo de Plugins de Jenkins.
 
 | Jenkins                                                             | GitHub                                                     |
 | :------------------------------------------------------------------ | :--------------------------------------------------------- |
@@ -94,9 +92,9 @@ Click [here](https://plugins.jenkins.io/) to view the full listing of Jenkins Pl
 
 =======
 
-## Unsupported
+## No soportado
 
-The following plugins do not have any equivalent in GitHub Actions:
+Los siguientes plugins no tienen equivalente en GitHub Actions:
 
 - AnsiColor
 - BitBucket
@@ -116,4 +114,4 @@ The following plugins do not have any equivalent in GitHub Actions:
 - Warnings
 - WarningsPublisher
 
-Any plugins not listed above will not be mapped to an action and will be left as a comment in the converted workflow.
+Cualquier plugin que no figure en la lista anterior no se mapeará a una acción y se dejará como comentario en el flujo de trabajo convertido. 

@@ -1,8 +1,6 @@
-# Task Mappings
+# Mapeo de Tareas
 
-*Read this document in other languages: [Español](index.es.md)*
-
-Click [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks) to view the full listing of built-in Azure DevOps tasks.
+Haga clic [aquí](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks) para ver el listado completo de tareas integradas de Azure DevOps.
 
 | Azure DevOps                                                    | GitHub                                                                                          |
 | :-------------------------------------------------------------- | :---------------------------------------------------------------------------------------------- |
@@ -87,13 +85,13 @@ Click [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks) to v
 | [Yarn](Yarn.md)                                                 | run                                                                                             |
 | [YarnInstaller](YarnInstaller.md)                               | run                                                                                             |
 
-## Unsupported
+## No soportado
 
-The following tasks do not have any equivalent in GitHub Actions:
+Las siguientes tareas no tienen equivalente en GitHub Actions:
 
 - BuildQualityChecks
 - Package
 - ArtifactSource
 - PublishSecurityAnalysisLogs
 
-Any task not listed above will not be mapped to an action and will be left as a comment in the converted workflow.
+Cualquier tarea que no figure en la lista anterior no se mapeará a una acción y se dejará como comentario en el flujo de trabajo convertido. 
